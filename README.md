@@ -23,7 +23,7 @@ in [UserSavedByCompiler](https://github.com/stuyvesant-cs/solutionsHolmes/blob/2
 ```
 public class Pair<T> 
 ```
-in [Pair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/Pair.java#L10)
+in [Pair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/Pair.java#L8)
 
 
 - declaration of a variable that can hold a reference to an instance
@@ -36,7 +36,7 @@ in [FibPair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/mast
 
 - assignment to such a variable:
 ```
-new Pair<Integer>(smaller,bigger)
+previousPair = new Pair<Integer>(smaller,bigger);
 ```
 in [FibPair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/FibPair.java#L36)
 
@@ -50,9 +50,9 @@ in [FibPair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/mast
 
 - successful instantiation of an instance of such a class:
 ```
-????
+Pair<Integer> previousPair = new Pair<Integer>(smaller,bigger);
 ```
-in [class](URL)
+in [FibPair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/FibPair.java#L36)
 
 
 - *un*successful instantiation of an instance of such a class,
@@ -66,22 +66,22 @@ in [class](URL)
 - a variable that can hold a reference to an instance of the generic type
 in a class / type that is parameterized by a generic type:
 ```
-???
+private T first;
 ```
-in [class](URL)
+in [Pair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/Pair.java#L10)
 
 
 - the declaration of a method or constructor that accepts a parameter of a generic type:
 ```
-???
+public Pair( T first, T second) 
 ```
-in [class](URL)
+in [Pair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/Pair.java@L13)
 
 
 - the declaration of a method that returns a value of a generic type:
 ```
-your exemplifying line from the Pair example here
+public T getFirst()
 ```
-in [class](URL)
+in [Pair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/Pair.java#L18)
 
 
