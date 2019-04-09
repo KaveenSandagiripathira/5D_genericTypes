@@ -21,36 +21,36 @@ in [UserSavedByCompiler](https://github.com/stuyvesant-cs/solutionsHolmes/blob/2
 
 - definition that a class / type that is parameterized by a generic type, `T`:
 ```
-your exemplifying line from the Pair example here
+public class Pair<T> 
 ```
-in [class](URL)
+in [Pair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/Pair.java#L10)
 
 
 - declaration of a variable that can hold a reference to an instance
 of such a class:
 ```
-your exemplifying line from the Pair example here
+Pair<Integer> previousPair
 ```
-in [class](URL)
+in [FibPair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/FibPair.java#L36)
 
 
 - assignment to such a variable:
 ```
-your exemplifying line from the Pair example here
+new Pair<Integer>(smaller,bigger)
 ```
-in [class](URL)
+in [FibPair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/FibPair.java#L36)
 
 
 - declaration of a method that returns an instance of such a type:
 ```
-your exemplifying line from the Pair example here
+private static Pair<Integer> nextPairAfter(Pair<Integer> previousPair)
 ```
-in [class](URL)
+in [FibPair](https://github.com/KaveenSandagiripathira/5D_genericTypes/blob/master/FibPair/FibPair.java#L54)
 
 
 - successful instantiation of an instance of such a class:
 ```
-your exemplifying line from the Pair example here
+????
 ```
 in [class](URL)
 
@@ -58,7 +58,7 @@ in [class](URL)
 - *un*successful instantiation of an instance of such a class,
 caught by the compiler:
 ```
-your exemplifying line from the Pair example here
+???
 ```
 in [class](URL)
 
@@ -66,14 +66,14 @@ in [class](URL)
 - a variable that can hold a reference to an instance of the generic type
 in a class / type that is parameterized by a generic type:
 ```
-your exemplifying line from the Pair example here
+???
 ```
 in [class](URL)
 
 
 - the declaration of a method or constructor that accepts a parameter of a generic type:
 ```
-your exemplifying line from the Pair example here
+???
 ```
 in [class](URL)
 
